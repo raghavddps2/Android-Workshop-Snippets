@@ -65,6 +65,6 @@ public class MainActivity extends AppCompatActivity {
     }
     public void displayForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
-        scoreView.setText(String.valueOf(score));
+        scoreView.setText(""+score);
     }
 }
